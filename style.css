@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 15px;
+}
+.container.desactive{
+    display: none !important;
+}
+
+.answers{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 5px;
+}
+
+
+.progress{
+  position: relative;
+}
+
+.progress-bar{
+    margin-left: -12px;
+}
